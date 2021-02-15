@@ -1,0 +1,9 @@
+variable a
+variable res
+read a
+res = 1
+cycle a > 1
+res = res * a
+a = a - 1
+end
+write res
